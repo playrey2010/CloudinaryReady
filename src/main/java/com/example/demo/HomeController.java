@@ -16,6 +16,9 @@ import java.security.Principal;
 public class HomeController {
 
     @Autowired
+    CloudinaryConfig cloudc;
+
+    @Autowired
     UserRepository userRepository;
 
     @Autowired
